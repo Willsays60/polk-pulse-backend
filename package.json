@@ -1,0 +1,22 @@
+{
+  "name": "polk-pulse-backend",
+  "version": "1.0.0",
+  "description": "Polk Pulse live local news API for Polk County, FL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "node-cache": "^5.1.2",
+    "rss-parser": "^3.13.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
